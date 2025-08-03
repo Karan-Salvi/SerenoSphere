@@ -1,0 +1,34 @@
+{
+  "name": "serenosphere",
+  "version": "1.0.0",
+  "description": "serenosphere wellness session platform backend",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "wellness",
+    "meditation",
+    "yoga",
+    "session",
+    "platform"
+  ],
+  "author": "WellNest Team",
+  "license": "MIT"
+}
